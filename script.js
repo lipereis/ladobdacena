@@ -1,9 +1,9 @@
-// Menu responsivo
+
 document.querySelector('.menu-toggle').addEventListener('click', () => {
   document.querySelector('.nav-links').classList.toggle('active');
 });
 
-// Scroll suave
+
 document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
   anchor.addEventListener('click', function (e) {
     e.preventDefault();
@@ -13,7 +13,7 @@ document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
   });
 });
 
-// Animação de fade-in ao rolar
+
 const sections = document.querySelectorAll('.content-card');
 
 const observer = new IntersectionObserver(
@@ -30,3 +30,4 @@ const observer = new IntersectionObserver(
 sections.forEach((section) => {
   observer.observe(section);
 });
+
