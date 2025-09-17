@@ -129,7 +129,7 @@ footer {
     text-decoration: underline;
 }
 
-/* Responsividade */
+
 @media (max-width: 768px) {
     .nav-links {
         display: none;
@@ -153,4 +153,5 @@ footer {
     .content-card {
         flex-direction: column;
     }
+
 }
